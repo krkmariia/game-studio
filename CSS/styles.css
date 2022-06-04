@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+}
+
+body{
+font-family: 'Roboto', sans-serif;
+}
+
+header{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+header, footer{
+    text-align: center;
+}
+
+.logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.logo_wrapper{
+color: #212121;
+}
+
+.best_video_games{
+    background-image: url(/IMG/Header\ img.jpg);
+    padding-top: 158px;
+    padding-bottom: 158px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.best_video_games::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: rgba(47, 48, 58, 0.4);
+
+}
+
+.best_video_games_title{
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+}
+
+.games{
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.games_title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    text-transform: uppercase;
+}
+
+hr{
+    margin-top: 4px;
+    margin-bottom: 31px;
+    height: 2px;
+    width: 100px;
+    background: #2196F3;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list{
+    list-style: none;
+    padding: 0;
+}
+
+.list li{
+    margin-bottom: 30px;
+    border: 1px solid #EEEEEE;
+    transition: 0.3s;
+}
+
+.list li:hover{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.list li:hover h3{
+    color: #2196F3;
+}
+
+.list img{
+    width: 100%;
+}
+
+.list h3{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 4px;
+    margin-left: 24px;
+    margin-right: 24px;
+    transition: 0.3s;
+
+}
+
+.list p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 20px;
+}
+
+
+.forms{
+padding-left: 55px;
+padding-right: 55px;
+}
+
+.forms input, textarea{
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+}
+
+input:focus, 
+textarea:focus{
+    border: 1px solid #2196F3 ;
+    outline: 1px solid #2196F3;
+}
+
+
+textarea::placeholder{
+    font-family: 'Roboto';
+    font-style: 14px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: #757575;
+    margin-bottom: 4px;
+}
+.forms label{
+    font-style: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: #757575;
+    margin-bottom: 4px;
+}
+
+.forms textarea{
+    height: 120px;
+    padding-top: 16px;
+}
+
+.forms .butn{
+    height: 50px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    margin-top: 29px;
+    margin-bottom: 54px;
+    font-weight: 700;
+    font-style: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+footer{
+    background: #2f303a;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #FFFFFF;
+}
+
+.logo_wrapper1{
+    color: #FFFFFF;
+}
+
+footer .logo{
+    margin-bottom: 20px;
+}
+
+.addresse, a{
+font-style: 14px;
+line-height: 24px;
+margin-bottom: 8px;
+}
+
+a{
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    display: block;
+}
